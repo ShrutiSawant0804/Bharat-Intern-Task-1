@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal potfolio website - Sruti Sawant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4c75082de0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="E:\PROJECTS\porfolio\image\logoo.png" class="logo" alt="logo" width="10%">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi! I'm <span>Shruti</span><br>Sawant From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/profile.jpeg" width="10%" alt="photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>My self Shruti Jalindar Sawant And I'm pursuing my Final year of  Bcs.CS From Savitribai Phule University Of Pune. I'm a dedicated and driven individual with a passion for web development. Throughout my academic journey and personal projects,I've honed my skills in HTML, CSS and Javascript. I thrive on challenges and enjoy finding innovative solutions to complex problems. I'm a team player, always eager to collaborate and learn from others. I'm excited about the opportunity to contribute my expertise and creativity to a dynamic company like yours, where I can continue to grow and make a positive impact</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('achivements')">Achivements</p>
+                        <p class="tab-links" onclick="opentab('intership')">Intership</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="achivements">
+                        <ul>
+                            <li><span>Web development</span><br> - LearnCode.academy</li>
+                            <li><span>Core Java</span><br> - Udemy</li>
+                            <li><span>Microsoft Learn AI Skills Challenge</span><br> - Microsoftg</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="intership">
+                        <ul>
+                            <li><span>Web development</span><br> - Bharat Intern</li>
+                            <li><span>C programming</span><br> - Techno Hacks Edutech</li>
+                            <li><span>Tata Data Visualisation Intership</span><br> : Empowering Business with Effective Insights - Tata </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Graduation</span><br> Savitribai Phule University of Pune - Bsc(Computer Science)</li>
+                            <li><span>CLASS XII</span><br>Dr Dy Patil Jr College of Science ,Arts and Commerce - Maharashtra Board</li>
+                            <li><span>CLASS X</span><br>S. M. Dr. Dy Patil School - Maharashtra Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- .....................services.......................  -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Certified by LearnCode.academy</p>
+                        <p>My skills encompass both front-end and back-end technologies, enabling me to create dynamic and responsive websites. Proficient in HTML, CSS, JavaScript, and frameworks like React, I craft intuitive user interfaces that engage and captivate visitors. Additionally, my expertise extends to server-side scripting languages like Node.js and databases, ensuring seamless functionality and data management. My dedication to staying current with industry trends allows me to deliver cutting-edge web solutions that leave a lasting impact.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>Core Java</h2>
+                        <p>Certified by Udemy</p>
+                        <p> My skill set encompasses fundamental concepts of Java programming, including object-oriented principles, data structures, and algorithms. I am adept at creating efficient and reliable Java applications, utilizing its diverse libraries and frameworks. With a strong grasp of Java's syntax and functionality, I develop robust and maintainable code to solve complex problems. My Udemy certification underscores my commitment to continuous learning and professional growth in the field of Core Java.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-microsoft"></i>
+                        <h2>Microsoft Learn AI Skills Challenge</h2>
+                        <p>Certified by Microsoft</p>
+                        <p>I have successfully completed the Microsoft Learn AI Skills Challenge, demonstrating my expertise in artificial intelligence (AI) technologies. Through this certification, I have gained hands-on experience in developing AI-powered solutions, including machine learning models, natural language processing, and computer vision applications. My proficiency in leveraging Microsoft AI tools and frameworks enables me to design innovative solutions that harness the power of AI to solve real-world problems. This certification from Microsoft reflects my dedication to advancing my skills and contributing to the cutting-edge field of artificial intelligence.</p>
+                        <a href="#">Read More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- ....................portfolio........... -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title"> My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/hospital.PNG" alt="">
+                        <div class="layer">
+                            <h3>Hospital website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate in quis obcaecati doloremque aliquam facere accusamus eveniet beatae, sapiente iste? Ad obcaecati soluta, quae harum eum sit incidunt ut.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/hospital.PNG" alt="">
+                        <div class="layer">
+                            <h3>Hospital website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate in quis obcaecati doloremque aliquam facere accusamus eveniet beatae, sapiente iste? Ad obcaecati soluta, quae harum eum sit incidunt ut.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image/hospital.PNG" alt="">
+                        <div class="layer">
+                            <h3>Hospital website</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat cupiditate in quis obcaecati doloremque aliquam facere accusamus eveniet beatae, sapiente iste? Ad obcaecati soluta, quae harum eum sit incidunt ut.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <!-- ...................contact....................... -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="content-left">
+                        <h1 class="sub-title">Content Me</h1>
+                        <br>
+                        <p> <i class="fa-solid fa-paper-plane"></i> contact@gmail.com</p>
+                        <br>
+                        <p> <i class="fa-solid fa-phone"></i> 9874563210</p><br>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        </div>
+                        <a href="Shruti CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Sumbit</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Shruti Sawant. Made with <i class="fa-solid fa-heart"></i> by Me</p>
+            </div>
+        </div>
+
+    <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
